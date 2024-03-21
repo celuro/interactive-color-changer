@@ -1,10 +1,10 @@
 //First we need to create a button in order for the background to change
 let button = document.createElement("button");
+button.textContent = "button";
 document.body.appendChild(button);
 
-//Next we need to define a list of colors. I will use magenta, aqua, indigo and light pink.
-
-const colors = ["#de268e", "#26dec2", "#1a113d", "#f59fbd"];
+//Next we need to define a list of colors. I will use magenta, aqua, light blue and light pink.
+const colors = ["#de268e", "#26dec2", "#c0d5fa", "#f59fbd"];
 
 button.addEventListener("click", function(){
   //We need to define an index that represents the randomized color
